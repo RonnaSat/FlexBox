@@ -1,41 +1,49 @@
-.flex-container{
+.flex-container {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
 }
-.inline-flex-container{
+
+.inline-flex-container {
     display: inline-flex;
     flex-flow: row wrap-reverse;
     justify-content: center;
 }
-.bg-red{
+
+.bg-red {
     background-color: red;
 }
-.bg-blue{
+
+.bg-blue {
     background-color: skyblue;
 }
-.flex-container>div{
+
+.flex-container>div {
     background-color: darkgray;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-    width: 600px;
-
+    width: 70;
 }
-.inline-flex-container>div{
+
+.inline-flex-container>div {
     background-color: lightgray;
     margin: 20px;
     padding: 10px;
     font-size: 25px;
-    width: 70px;
+    width: 70;
 }
-.d1{
-    order: 1;
+
+.d1 {
+    align-self: flex-end;
+    flex-basis: 200px;
 }
-.d2{
-    order: 3;
-    flex-shrink: 4;
+
+.d2 {
+    flex-basis: 100px;
 }
-.d3{
-    order: 2;
+
+.d3 {
+    flex-basis: 100px;
+
 }
